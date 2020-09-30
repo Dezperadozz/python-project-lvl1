@@ -1,15 +1,9 @@
 import prompt
 
-NAME = None
-
-
-def get_name():
-    return NAME
+from brain_games.games.game_engine import add_player
 
 
 def welcome_user():
-    global NAME
-    if get_name() is None:
-        NAME = prompt.string('May I have your name? ')
-    print(f'Hello, {NAME}!')
-    print()
+    name = prompt.string('May I have your name? ')
+    add_player(name)
+    print(f'Hello, {name}!')

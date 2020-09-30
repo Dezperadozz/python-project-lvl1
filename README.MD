@@ -1,7 +1,17 @@
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a>
 ![Python CI](https://github.com/Dezperadozz/python-project-lvl1/workflows/Python%20CI/badge.svg)
 
+INFO
+1. Install package:
+   pip install -i https://test.pypi.org/simple/ dezperadozz-brain-games;
+2. Type name of the game in console to play:
+   *  brain-calc
+   *  brain-even
+   *  brain-gcd
+   *  brain-prime
+   *  brain-progression
+   
+To more information watch video examples
 
 Package install
 [![asciicast](https://asciinema.org/a/OyuoTuvXyHRx7tbWiCeW1sjos.svg)](https://asciinema.org/a/OyuoTuvXyHRx7tbWiCeW1sjos)
